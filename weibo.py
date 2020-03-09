@@ -14,7 +14,7 @@ class WeiBo(AppUI):
 
     @property
     def clickMy(self):
-        sleep(3)
+        t.sleep(3)
         self.findElement(*self.login_loc).click()
 
     def typePhone(self,phone):
