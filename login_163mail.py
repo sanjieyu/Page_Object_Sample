@@ -6,7 +6,7 @@
 from Code_Sample.basePage import *
 from selenium.webdriver.common.by import By
 
-class mail(WebDriver):
+class Mail(WebDriver):
     username_loc = (By.ID,'username')
     password_loc = (By.ID,'password')
     login_loc = (By.LINK_TEXT,'login')
